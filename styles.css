@@ -1,0 +1,105 @@
+
+* {
+	font-family: Calluna, Arial, sans-serif;
+}
+
+
+body {
+  background: linear-gradient(rgba(255, 255, 255, 0), rgba(255, 255, 255, 0)), url(Assets/77D5E327-38D6-481A-93C9-0FDB9C42F2C0.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100%;
+  background-position: center top;
+  color: #fff;
+	margin: 0;
+	padding: 0;
+}
+
+header {
+	display:flex;
+	flex-flow:column;
+	width: 100vw;
+	height: calc(100vh - 100px);
+	text-align: right;
+	align-items: flex-end;
+}
+
+header div{
+	margin: 2px;
+	font-size: 40px;
+	max-width: 270px;
+}
+
+.card-container {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	gap: 30px;
+	margin: auto;
+	text-align: center;
+}
+
+.card {
+	min-width: 200px;
+	border: 2px black solid;
+	width: 20%;
+	height: 250px;
+	background-color: #0000009e;
+}
+
+.nav-container {
+border: solid black 2px;
+height: 100px;
+background-color: #0000009e
+}
+
+.left-nav img, .right-nav img {
+	display:flex;
+	width: 25px;
+	height: 25px;
+}
+
+.mtn {
+	width: 50px	!important;
+	height: 50px !important;
+	padding-left: 5%;
+}
+
+.app-name {
+	padding-top: 5px;
+	font-size: 50px;
+}
+
+.app-name, .mtn{
+	display: flex;
+	flex-direction: row;
+}
+
+.left-nav, .right-nav {
+	font-size: 12px;
+	gap: 15px;
+}
+
+.left-nav {
+	display:flex;
+	justify-content:left;
+	margin-left: 20px;
+  margin-top: 60px
+}
+
+.right-nav {
+	display:flex;
+	justify-content: right;
+	margin-right: 5px;
+	margin-top: 20px;
+	flex-direction: column;
+}
+
+.nav-container {
+	display: flex;
+	justify-content:space-between;
+}
+
+.settings {
+	margin-top: 15px;
+}
