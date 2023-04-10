@@ -13,13 +13,14 @@ body {
   color: #fff;
 	margin: 0;
 	padding: 0;
+	margin-bottom: 20%;
 }
 
 header {
 	display:flex;
 	flex-flow:column;
 	width: 100vw;
-	height: calc(100vh - 100px);
+	height: calc(100vh - 140px);
 	text-align: right;
 	align-items: flex-end;
 }
@@ -33,24 +34,18 @@ header div{
 .card-container {
 	display: flex;
 	flex-wrap: wrap;
+	align-items:flex-start;
 	justify-content: center;
 	gap: 30px;
 	margin: auto;
 	text-align: center;
 }
 
-.card {
-	min-width: 200px;
-	border: 2px black solid;
-	width: 20%;
-	height: 250px;
-	background-color: #0000009e;
-}
-
 .nav-container {
 border: solid black 2px;
 height: 100px;
-background-color: #0000009e
+background-color: #0000009e;
+margin-bottom: 5px;
 }
 
 .left-nav img, .right-nav img {
@@ -91,8 +86,8 @@ background-color: #0000009e
 	display:flex;
 	justify-content: right;
 	margin-right: 5px;
-	margin-top: 20px;
-	flex-direction: column;
+	margin-top: 35px;
+	flex-direction: row;
 }
 
 .nav-container {
@@ -100,6 +95,32 @@ background-color: #0000009e
 	justify-content:space-between;
 }
 
-.settings {
-	margin-top: 15px;
+.card {
+	min-width: 200px;
+	border: 4px black solid;
+	width: 20%;
+	height: 250px;
+	background-color: #000000ea;
+	margin-bottom: 5px;
+	padding-bottom: 10px;
 }
+
+.card-header {
+	display: flex;
+	justify-content:space-between;
+	background: #ca4c09d8;
+	padding: 5px 10px 10px 5px;
+}
+
+.card-text {
+	display: flex;
+	flex-direction: column;
+	text-align: left;
+}
+
+.big-num {
+	font-size: 30px;
+	color: #ca4c09d8;
+}
+
+
